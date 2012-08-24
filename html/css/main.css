@@ -1,0 +1,63 @@
+body { 
+	font-family: tahoma;
+	font-weight: bold;
+	line-height: 15px;
+}
+
+
+#container { 
+	width:960px;
+	position:relative;
+	margin:0px auto;
+}
+
+#sidebar { 
+	float:right;
+	margin-right:0px;
+}
+
+.cta { 
+	width:335px;
+	float:left;
+	height:150px;
+	border:1px solid black;
+	margin:10px 0px;
+}
+
+#v1 .cta { 
+	width:468px;
+	height:180px;
+}
+
+
+
+.right { 
+	margin-left:20px;
+}
+
+.cta h2 { 
+	color: #b40816;
+	margin-left:5px;
+}
+
+.cta p { 
+	margin:10px;
+	font-weight:normal;
+	font-size:14px;
+}
+
+.signup { 
+	text-align:right;
+	color: #b40816;
+	position:relative;
+	top:20px;
+	text-decoration:underline;
+}
+
+#v1 .signup, #v3 .signup { 
+	top:5px;	
+}
+
+#v3 li{ 
+	font-weight:normal;
+}
