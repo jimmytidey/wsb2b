@@ -61,3 +61,11 @@ body {
 #v3 li{ 
 	font-weight:normal;
 }
+
+#sm_e_s { 
+	overflow:hidden!important;
+}
+
+iframe .sTitle { 
+	display:none!important;
+}
