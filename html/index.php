@@ -24,7 +24,7 @@
     <div id='container'>        
         <h1>Wines &amp; Spirits B2b</h1>
         
-        <p>We are working on an improved homepage and we'd love to know what you think of some of the designs we have. If you have a moment to answer these questions it would help us a great deal.</p>
+        <p>We are working on an improved home page and we'd love to know what you think of some of the designs we have. If you have a moment to answer these questions it would help us a great deal.</p>
         
         
         <p><a href='v1.php' target='_blank' >Logo with URL</a><p>
