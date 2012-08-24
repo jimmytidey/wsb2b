@@ -22,24 +22,35 @@
     
 <body id='v1'>
     <div id='container'>        
-        <h1>Here are several versions of the Wines &amp; Spirits home page</h1>
+        <h1>Wines &amp; Spirits B2b</h1>
+        
+        <p>We are working on an improved homepage and we'd love to know what you think of some of the designs we have. If you have a moment to answer these questions it would help us a great deal.</p>
+        
         
         <p><a href='v1.php' target='_blank' >Logo with URL</a><p>
         <p><a href='v2.php' target='_blank' >Logo without URL</a><p>
         
         <div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=S_2fRbwat1sWrUrsy3zybmcQ_3d_3d"> </script></div></div>        
 
+        <br/><hr/><br/>
+
         <p><a href='v1.php' target='_blank' >Without tabs</a><p>
         <p><a href='v1.php' target='_blank' >With tabs</a><p>
         <div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=S_2fRbwat1sWrUrsy3zybmcQ_3d_3d"> </script></div></div>        
+
+        <br/><hr/><br/>
 
         <p><a href='v1.php' target='_blank' >Version 1 header text</a><p>
         <p><a href='v1.php' target='_blank' >Version 2 header text</a><p>
         <div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=S_2fRbwat1sWrUrsy3zybmcQ_3d_3d"> </script></div></div>        
 
+        <br/><hr/><br/>
+
         <p><a href='v1.php' target='_blank' >With side bar</a><p>
         <p><a href='v1.php' target='_blank' >Without side bar</a><p>
         <div id="surveyMonkeyInfo"><div><script src="http://www.surveymonkey.com/jsEmbed.aspx?sm=S_2fRbwat1sWrUrsy3zybmcQ_3d_3d"> </script></div></div>        
+
+        <br/><hr/><br/>
 
         <p><a href='v1.php' target='_blank' >Version 1 of quick link boxes</a><p>
         <p><a href='v1.php' target='_blank' >Version 2 of quick link boxes</a><p>
