@@ -22,8 +22,9 @@
     
 <body id='v1'>
     <div id='container'>        
-        <img src='resources/black_banner_julian_copy.png' />
-        <img src='resources/banner_v1.png' />
+        <img src='resources/header.png' />
+        <img src='resources/photo_banner_julian_copy.png' />
+
         <!-- <img src='resources/sidebar.png' id='sidebar' /> -->
         
         

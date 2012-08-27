@@ -19,17 +19,11 @@ body {
 .cta { 
 	width:335px;
 	float:left;
-	height:150px;
+	height:200px;
 	border:1px solid black;
 	margin:10px 0px;
+	position:relative;	
 }
-
-#v1 .cta { 
-	width:468px;
-	height:180px;
-}
-
-
 
 .right { 
 	margin-left:20px;
@@ -40,32 +34,52 @@ body {
 	margin-left:5px;
 }
 
-.cta p { 
+.cta p, .cta li { 
 	margin:10px;
 	font-weight:normal;
-	font-size:14px;
+	font-size:12px;
 }
 
 .signup { 
 	text-align:right;
 	color: #b40816;
-	position:relative;
-	top:20px;
+	position:absolute;
 	text-decoration:underline;
+	bottom:0px;
 }
 
-#v1 .signup, #v3 .signup { 
-	top:5px;	
+.tab_content { 
+	display:none;
 }
 
-#v3 li{ 
-	font-weight:normal;
+#content_holder { 
+	height:207px;
 }
 
-#sm_e_s { 
-	overflow:hidden!important;
-}
+#content_holder p{
+	font-size:12px;
+	margin:0px;
+} 
 
-iframe .sTitle { 
-	display:none!important;
+/* TABS */
+
+#directory { 
+   position: absolute;
+   right: 442px;
+   top: 67px;
+}
+#comp { 
+   position: absolute;
+   right: 271px;
+   top: 67px;
+}
+#offer { 
+   position: absolute;
+   right: 138px;
+   top: 67px;
+}
+#press { 
+   position: absolute;
+   right: 0px;
+   top: 67px;
 }
