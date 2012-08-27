@@ -74,7 +74,41 @@
             <p>Search for people, companies and products. Ensure you, your company and products can be found by others and connect to other members of the trade and connect with multiple companies that you own or work for. (It is still early days for this platform but ultimately you will be able to find out who sells what to whom.)</p>
         </div>        
         
-        <img src='resources/sidebar.png' id='sidebar' />
+        <div id='sidebar'>
+            <div id='events'> 
+                <h2>Events</h2>
+            
+                <h3>September 2012</h3>
+                <p>China Wine Awards 2012</p>
+                <p>Napa Valley Wine Industry Symposium</p>
+            
+                <h3>October 2012</h3>
+                <p>Les Rencontres Vinicoles Lyon</p>
+                <p>Three Wine Men Cardiff</p>
+                <p>Les Rencontres Vinicoles Paris</p>
+            
+                <h3>November 2012</h3>
+                <p>Les Rencontres Vinicoles Lausanne</p>
+            
+                <p class='more'>More &raquo;</p>
+            </div>
+
+            <div id='news'> 
+                <h2>News</h2>
+
+
+                <p>3ème édition pour le prix de l'œnotourisme </p><em>24 Aug</em>
+
+                <p>Le château de Gevrey-Chambertin acheté pour 8 millions d'euros par un chinois </p><em>23 Aug</em>
+                <p>La nouvelle est tombée hier, un investisseur chinois ayant fait fortune...   </p><em>23 Aug</em>
+                
+                <p>Château de Gevrey Chambertin now under Chinese ownership  </p><em>23 Aug</em>
+
+
+            
+                <p class='more'>More &raquo;</p>
+            </div>
+        </div>
         
         
         <div class='cta'> 
