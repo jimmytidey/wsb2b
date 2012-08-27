@@ -58,7 +58,7 @@
             <img src='resources/black_banner_julian_copy.png' />
         </div>
         
-        <div id='directory_text' class='tab_content'>
+        <div id='offer_text' class='tab_content'>
             <p>Tenders enable buyers to reach out to all potential suppliers for a given category of product and receive offers from them. Offers enable suppliers to let the buyers know about a limited time special offers (such as bin-ends) or branded products at especially attractive pricing. Free for buyers, pay as you go for sellers.</p>
         </div>
         
@@ -66,11 +66,11 @@
             <p>Competition and event organizers or journalists seeking samples can easily solicit suppliers through our platform who can sign up and submit their product information to the organiser which is stored on the platform so they only have to complete their product information once!</p>
         </div>
         
-        <div id='offer_text' class='tab_content'>
+        <div id='press_text' class='tab_content'>
             <p>Get your news out to the press by uploading your press releases and other news items. Journalists can apply filters to receive only relevant news items. Stay informed about the latest news.<p>
         </div>
         
-        <div id='press_text' class='tab_content'>
+        <div id='directory_text' class='tab_content'>
             <p>Search for people, companies and products. Ensure you, your company and products can be found by others and connect to other members of the trade and connect with multiple companies that you own or work for. (It is still early days for this platform but ultimately you will be able to find out who sells what to whom.)</p>
         </div>        
         
