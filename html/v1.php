@@ -79,7 +79,8 @@
     <div id='container'>        
         <img src='resources/header.png' />
         
-        <a id='offer' class='tab' data-selected='true' >Offers &amp; Tenders</a>
+        <a class='tab' data-selected='true'></a>
+        <a id='offer' class='tab'  >Offers &amp; Tenders</a>
         <a id='comp' class='tab' />Events</a>
         <a id='directory' class='tab' />Directory</a>
         <a id='press' class='tab' />Press &amp; News</a>
