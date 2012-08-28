@@ -36,7 +36,7 @@
                 var img_src = $(this).attr('src');
                 img_src = img_src.split('_');
                 $(this).attr('src', img_src[0] + "_"+ img_src[1] +".png");
-                $('#content_holder').html("<img src='resources/black_banner_julian_copy.png' />");
+                $('#content_holder').html("<img src='resources/banner_v3.png' />");
             });
         });
     
