@@ -45,6 +45,9 @@
     
 <head>
     
+    
+    
+    
 <body id='v2'>
     <div id='container'>        
         <img src='resources/header.png' />
