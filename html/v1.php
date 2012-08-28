@@ -20,24 +20,54 @@
     
     <script>
         $(document).ready(function() { 
-            $('.tab').mouseover(function(){ 
-                var img_src = $(this).attr('src');
-                img_src = img_src.split('.');
-                $(this).attr('src', img_src[0] + "_down.png");
-                var type = $(this).attr('id');
-                type +='_text';
+            $('#arrow_right').click(function() {
+                
+                //show left arrow
+                if(parseInt($('#scroll').css('left')) == 0) { 
+                    $('#arrow_left').css('display', 'block');
+                }
 
-                var html = $('#'+type).html();
+                 if(parseInt($('#scroll').css('left')) > -5400 && !$('#scroll').is(":animated")) {
 
-                $('#content_holder').html(html);
-            });  
-             
-            $('.tab').mouseout(function(){ 
-                var img_src = $(this).attr('src');
-                img_src = img_src.split('_');
-                $(this).attr('src', img_src[0] + "_"+ img_src[1] +".png");
-                $('#content_holder').html("<img src='resources/banner_v1.png' />");
-            });
+                     $('#scroll').animate({
+                         left: '-=960'
+                     });
+                     
+                     //assign selected state to next link
+                     $('[data-selected="true"]').attr('data-selected', 'false').next().attr('data-selected', 'true');
+                     
+                     //underline correct link 
+                     $('[data-selected="false"]').css('text-decoration', 'none');
+                     $('[data-selected="true"]').css('text-decoration', 'underline');                     
+                 } 
+                 
+ 
+             });
+
+             $('#arrow_left').click(function() {
+
+                    if(parseInt($('#scroll').css('left')) < 0 && !$('#item_container').is(":animated") ) { 
+
+                     $('#scroll').animate({
+                         left: '+=960'
+                    });
+                    
+                    //assign selected state to next link
+                    $('[data-selected="true"]').attr('data-selected', 'false').prev().attr('data-selected', 'true');
+                    
+                    //underline correct link 
+                    $('[data-selected="false"]').css('text-decoration', 'none');
+                    $('[data-selected="true"]').css('text-decoration', 'underline'); 
+
+
+                    //hide left arrow if necessary
+                    console.log(parseInt($('#scroll').css('left')));
+                    if(parseInt($('#scroll').css('left')) >= -960) { 
+                        $('#arrow_left').css('display', 'none');
+                    }                                       
+
+                 }
+             });
         });
     
     
@@ -49,14 +79,19 @@
     <div id='container'>        
         <img src='resources/header.png' />
         
-        <img src='resources/tab_directory.png' id='directory' class='tab' />
-        <img src='resources/tab_comp.png' id='comp' class='tab' />
-        <img src='resources/tab_offer.png' id='offer' class='tab' />
-        <img src='resources/tab_press.png' id='press' class='tab' />
+        <a id='offer' class='tab' data-selected='true' >Offers &amp; Tenders</a>
+        <a id='comp' class='tab' />Events</a>
+        <a id='directory' class='tab' />Directory</a>
+        <a id='press' class='tab' />Press &amp; News</a>
+        
+        
         
         <div id='content_holder'>
-            <img src='resources/banner_v1.png' />
+            <img src='resources/panorama.png' id='scroll' />
         </div>
+        <div id='arrow_left'>&laquo;</div>
+        <div id='arrow_right'>&raquo;</div>
+        
         
         <div id='offer_text' class='tab_content'>
             <p>Tenders enable buyers to reach out to all potential suppliers for a given category of product and receive offers from them. Offers enable suppliers to let the buyers know about a limited time special offers (such as bin-ends) or branded products at especially attractive pricing. Free for buyers, pay as you go for sellers.</p>

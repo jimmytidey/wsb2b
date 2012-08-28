@@ -107,7 +107,44 @@ h2 {
 #content_holder { 
 	height:207px;
 	background-image:url(../resources/banner_bkg.png);
+	overflow:hidden;
+	width:960px;
+	position:relative;
 }
+
+#scroll { 
+	left:0px;
+	position:absolute;
+}
+
+#arrow_left {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 40px;
+    height: 117px;
+    left: 0px;
+    padding-left: 5px;
+    padding-top: 90px;
+    position: absolute;
+    top: 143px;
+    width: 32px;
+	display:none;
+}
+
+#arrow_right {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 40px;
+    height: 117px;
+    padding-left: 10px;
+    padding-top: 90px;
+    position: absolute;
+    right: 0;
+    top: 143px;
+    width: 32px;
+}
+
+
 
 #content_holder p{
 	font-size:18px;
@@ -119,23 +156,27 @@ h2 {
 
 /* TABS */
 
-#directory { 
-   position: absolute;
-   right: 442px;
-   top: 67px;
-}
-#comp { 
-   position: absolute;
-   right: 271px;
-   top: 67px;
-}
 #offer { 
-   position: absolute;
-   right: 138px;
-   top: 67px;
+	position: absolute;
+	right: 386px;
+	top: 80px;
+	text-decoration:underline;
 }
+
+#comp { 
+	position: absolute;
+	right: 282px;
+	top: 80px;
+}
+
+#directory { 
+	position: absolute;
+	right: 154px;
+	top: 80px;
+}
+
 #press { 
    position: absolute;
    right: 0px;
-   top: 67px;
+   top: 80px;
 }
