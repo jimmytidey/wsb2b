@@ -1,7 +1,11 @@
 body { 
 	font-family: tahoma;
-	font-weight: bold;
+	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;	font-weight: bold;
 	line-height: 15px;
+	background-color:#EDF5FA;
+	background-image:url(../resources/bkg.png);
+	margin:0px;
+	padding:0px;
 }
 
 #sidebar { 
@@ -10,14 +14,18 @@ body {
 }
 
 #container { 
-	width:960px;
-	position:relative;
-	margin:0px auto;
+    background-color: white;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    width: 960px;
 }
 
 #events {
-	border:1px solid black;
-	margin-top:10px;
+    border-left: 1px solid black;
+    margin-top: 10px;
+    padding-left: 18px;
 }
 
 #events p{
@@ -33,9 +41,9 @@ body {
 }
 
 #news { 
-
-	border:1px solid black;
-	margin-top:10px;
+    border-left: 1px solid black;
+    margin-top: 10px;
+    padding-left: 18px;
 }
 
 #news p{
@@ -69,9 +77,17 @@ body {
 	width:335px;
 	float:left;
 	height:200px;
-	border:1px solid black;
 	margin:10px 0px;
 	position:relative;	
+
+	background-color:white;
+	-moz-box-shadow: 3px 3px 4px #ccc;
+	-webkit-box-shadow: 3px 3px 4px #ccc;
+	box-shadow: 3px 3px 4px #ccc;
+	border:2px solid #5f9fa3;	
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
 }
 
 .right { 
@@ -80,7 +96,7 @@ body {
 
 h2 { 
 	line-height:;
-	color: #b40816;
+	color: #c0182a;
 	margin-left:5px;
 }
 
@@ -105,11 +121,12 @@ h2 {
 }
 
 #content_holder { 
-	height:207px;
-	background-image:url(../resources/banner_bkg.png);
-	overflow:hidden;
-	width:960px;
-	position:relative;
+    background-image: url("../resources/banner_bkg.png");
+    height: 204px;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+    width: 960px;
 }
 
 #scroll { 
@@ -126,22 +143,24 @@ h2 {
     padding-left: 5px;
     padding-top: 90px;
     position: absolute;
-    top: 143px;
+    top: 108px;
     width: 32px;
 	display:none;
+	margin-left:20px;
 }
 
 #arrow_right {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
     cursor: pointer;
     font-size: 40px;
-    height: 117px;
+    height: 114px;
     padding-left: 10px;
     padding-top: 90px;
     position: absolute;
     right: 0;
-    top: 143px;
+    top: 108px;
     width: 32px;
+	margin-right:20px;
 }
 
 
@@ -155,6 +174,12 @@ h2 {
 } 
 
 /* TABS */
+
+.tab { 
+	margin-right:20px;
+	padding:3px;
+	border:1px solid white;
+}
 
 #offer { 
 	position: absolute;
@@ -178,4 +203,14 @@ h2 {
    position: absolute;
    right: 0px;
    top: 80px;
+}
+
+.current_section { 
+	background-color:#ccc;
+	border:1px solid black;
+}
+
+#home_tab { 
+	display:none;
+	height:0px!important;
 }

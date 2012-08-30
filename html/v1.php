@@ -37,8 +37,8 @@
                      $('[data-selected="true"]').attr('data-selected', 'false').next().attr('data-selected', 'true');
                      
                      //underline correct link 
-                     $('[data-selected="false"]').css('text-decoration', 'none');
-                     $('[data-selected="true"]').css('text-decoration', 'underline');                     
+                     $('[data-selected="false"]').removeClass('current_section');
+                     $('[data-selected="true"]').addClass('current_section');                    
                  } 
                  
  
@@ -56,8 +56,8 @@
                     $('[data-selected="true"]').attr('data-selected', 'false').prev().attr('data-selected', 'true');
                     
                     //underline correct link 
-                    $('[data-selected="false"]').css('text-decoration', 'none');
-                    $('[data-selected="true"]').css('text-decoration', 'underline'); 
+                    $('[data-selected="false"]').removeClass('current_section');
+                    $('[data-selected="true"]').addClass('current_section');
 
 
                     //hide left arrow if necessary
@@ -79,7 +79,7 @@
     <div id='container'>        
         <img src='resources/header.png' />
         
-        <a class='tab' data-selected='true'></a>
+        <a class='tab' id='home_tab' data-selected='true'></a>
         <a id='offer' class='tab'  >Offers &amp; Tenders</a>
         <a id='comp' class='tab' />Events</a>
         <a id='directory' class='tab' />Directory</a>
