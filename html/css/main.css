@@ -42,7 +42,7 @@ body {
 
 #news { 
     border-left: 1px solid black;
-    margin-top: 10px;
+    margin-top: 40px;
     padding-left: 18px;
 }
 
@@ -79,19 +79,39 @@ body {
 	height:200px;
 	margin:10px 0px;
 	position:relative;	
-	background-image:url(../resources/cta_bkg_suppliers.png);
+	background-image:url(../resources/cta_bkg.png);
 	background-color:white;
-	-moz-box-shadow: 3px 3px 4px #ccc;
-	-webkit-box-shadow: 3px 3px 4px #ccc;
-	box-shadow: 3px 3px 4px #ccc;
-	border:2px solid black;	
+
+	border:0px solid black;	
 
 }
 
-.cta ul, .cta h2{ 
-	margin-left:15px;
+.cta h2{ 
+	margin-left:12px;
 	padding-left:0px;
 }
+
+.cta ul { 
+    font-size: 13px;
+    height: 105px;
+    margin-left: 25px;
+    padding-left: 0;
+    width: 290px;
+}
+
+.cta li {
+	margin-bottom:7px;
+}
+
+.cta p{
+   font-size: 17px;
+    left: 20px;
+    position: relative;
+    text-align: right;
+    top: 7px;
+    width: 90%;
+}
+
 
 .right { 
 	margin-left:20px;
@@ -101,15 +121,10 @@ h2 {
 	line-height:;
 	color: #000;
 	margin-left:5px;
+	font-size:18px;
 }
 
 
-
-.cta p, .cta li { 
-	margin:10px;
-	font-weight:normal;
-	font-size:12px;
-}
 
 .signup { 
 	text-align:right;

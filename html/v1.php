@@ -151,9 +151,9 @@
             <h2>Suppliers</h2>
             
             <ul>    
-                <li>Enable customers and journalists to find your product information</li>
-                <li>Respond to buyer tenders and post offers (even discreetly with targeted visibility)</li>
-                <li>Submit your wines to competitions, guides, trade fairs etc. without filling out new forms</li>
+                <li>Enable buyers and journalists to find your product information easily</li>
+                <li>Respond to buyer tenders and post special offers</li>
+                <li>Submit your wines to multiple competitions, guides, trade fairs etc with just one form</li>
             </ul>
             
             <p class='signup'>Sign Up &raquo;</p>
@@ -162,12 +162,13 @@
         
  
         <div class='cta right'>
-                         
+
+            
             <h2>Buyers</h2>
             <ul>
-                <li>Reach out to all potential suppliers by posting a tender for your range reviews or portfolio gaps</li>
-                <li>Find out about special limited time offers from suppliers</li>
-                <li>Find out about event, news and reach out to journalists and other members of the trade</li>
+                <li>A quick and easy way to reach all potential suppliers by posting a tender for your range review or portfolio gaps</li>
+                <li>Find out about special offers from suppliers</li>
+                <li>Find out about event news and reach out to journalists and other members of the trade</li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
@@ -176,19 +177,19 @@
             <h2>Journalists</h2>
                
             <ul>
-                <li>Reach out to all members of the trade for samples or stories.</li>
-                <li>Immediately find up-to-date product information.</li>
-                <li>Set filters to only receive relevant news / press releases from the trade.</li>
+                <li>Invite members of the trade to submit samples, exhibit at or attend your event</li>
+                <li>Manage the registration process and easily upload event information</li>
+                <li>Automatically produce print-ready tasting booklets and digital tasting booklets for any mobile device</li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
-        
+
         <div class='cta right'> 
             <h2>Journalists</h2>
             <ul>
-                <li>Reach beyond your normal contacts</li>
-                <li>Discover new competitions</li>
-                <li>Request samples</li>
+                <li>Find up-to-date product information</li>
+                <li>Reach out to all members of the trade for samples or stories</li>
+                <li>Set filters to only receive relevant news </li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
