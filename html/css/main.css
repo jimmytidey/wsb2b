@@ -190,6 +190,24 @@ h2 {
 	color:white;
 } 
 
+#in_the_press { 
+	position:relative;
+	top:20px;
+}
+
+/* Social Media */
+
+.social_box { 
+	margin-top:60px;
+	padding-left:120px;
+}
+
+.sm_button { 
+	
+	float:left;
+	margin-left:36px;
+}
+
 /* TABS */
 
 .tab { 
