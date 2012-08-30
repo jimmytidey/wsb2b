@@ -85,9 +85,12 @@ body {
 	-webkit-box-shadow: 3px 3px 4px #ccc;
 	box-shadow: 3px 3px 4px #ccc;
 	border:2px solid black;	
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px;
+
+}
+
+.cta ul, .cta h2{ 
+	margin-left:15px;
+	padding-left:0px;
 }
 
 .right { 
