@@ -15,7 +15,7 @@ body {
 
 #container { 
     background-color: white;
-    height: 1200px;
+    height: 1300px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
@@ -23,7 +23,7 @@ body {
 }
 
 #events {
-    border-left: 1px solid black;
+    
     margin-top: 10px;
     padding-left: 18px;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 #news { 
-    border-left: 1px solid black;
+    ;
     margin-top: 40px;
     padding-left: 18px;
 }
@@ -196,18 +196,25 @@ h2 {
 	top:20px;
 }
 
+/*In The Press */
+#in_the_press { 
+	clear:both;
+}
+
+#in_the_press img { 
+	margin-top:20px;
+	margin-left:130px;
+
+}
+
 /* Social Media */
 
 .social_box { 
 	margin-top:60px;
-	padding-left:120px;
+	padding-left:180px;
 }
 
-.sm_button { 
-	
-	float:left;
-	margin-left:36px;
-}
+
 
 /* TABS */
 

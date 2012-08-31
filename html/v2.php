@@ -198,7 +198,7 @@
         
     
         <div id='in_the_press'>
-            <h2>What they say about us</h2>
+            <h2>Wines and Spirits B2B in the press</h2>
             <img  src='resources/in_the_press.png'>
         </div>
 		<div class='social_box'>
