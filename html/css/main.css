@@ -35,7 +35,7 @@ body {
 }
 
 #events h3 { 
-	background-color: #b40816;
+	background-color: #c41a2b;
 	color:white;
 	padding:3px 4px;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 #news h3 { 
-	background-color: #b40816;
+	background-color: #c41a2b;
 	color:white;
 	padding:3px 4px;
 }
@@ -127,7 +127,7 @@ h2 {
 
 .signup { 
 	text-align:right;
-	color: #b40816;
+	color: #c41a2b;
 	position:absolute;
 	text-decoration:underline;
 	bottom:0px;

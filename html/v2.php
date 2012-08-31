@@ -129,6 +129,7 @@
                 <p class='more'>More &raquo;</p>
             </div>
 
+            <!--
             <div id='news'> 
                 <h2>News</h2>
 
@@ -144,6 +145,8 @@
             
                 <p class='more'>More &raquo;</p>
             </div>
+            -->
+            
         </div>
         
         
@@ -198,37 +201,12 @@
         
     
         <div id='in_the_press'>
-            <h2>Wines and Spirits B2B in the press</h2>
-            <img  src='resources/in_the_press.png'>
+            <!--<h2>Wines and Spirits B2B in the press</h2> -->
+            <img  src='resources/in_the_press.png' >
         </div>
-		<div class='social_box'>
-		    <div id='facebook' class='sm_button'>
-			    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like id='facebook_like' href="" layout="box_count" show_faces="false" width="90" font=""></fb:like>			
-			</div>
-			
-			<div id='twitter' class='sm_button'>
-			    <a href="http://twitter.com/share" class="twitter-share-button" data-text="@panabee is the simplest way to brainstorm names for websites, blogs, and mobile apps. Try it out!" data-count="vertical">&nbsp;</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-			</div>
-			
-			<div id='google_plus' class='sm_button'>
-			    <g:plusone size="tall"></g:plusone>
-			</div>
-			
-			<div id='linked_in' class='sm_button'>
-			    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
-                <script type="IN/Share" data-counter="top"></script>
-		    </div>
-		</div>		
-  
-
-    	<script type="text/javascript">
-    	  (function() {
-    	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    	    po.src = 'https://apis.google.com/js/plusone.js';
-    	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    	  })();
-    	</script>      
-      
+        
+        
+        <img  src='resources/sm_icons.png' class='social_box' >
         
 	</div>
 </body>
