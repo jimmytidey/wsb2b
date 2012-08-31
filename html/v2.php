@@ -111,6 +111,9 @@
         </div>        
         
         <div id='sidebar'>
+            
+            <img src='resources/in_the_press_vert.png'  />
+            
             <div id='events'> 
                 <h2>Events</h2>
             
@@ -200,10 +203,7 @@
         
         
     
-        <div id='in_the_press'>
-            <!--<h2>Wines and Spirits B2B in the press</h2> -->
-            <img  src='resources/in_the_press.png' >
-        </div>
+  
         
         
         <img  src='resources/sm_icons.png' class='social_box' >

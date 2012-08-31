@@ -75,7 +75,7 @@
     
 <head>
     
-<body id='v2'>
+<body id='v1'>
     <div id='container'>        
         <img src='resources/header.png' />
         

@@ -1,6 +1,5 @@
 body { 
-	font-family: tahoma;
-	font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;	font-weight: bold;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
 	line-height: 15px;
 	background-color:#EDF5FA;
 	background-image:url(../resources/bkg.png);
@@ -15,7 +14,7 @@ body {
 
 #container { 
     background-color: white;
-    height: 1300px;
+    height: 1500px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
@@ -211,7 +210,12 @@ h2 {
 
 .social_box { 
 	margin-top:60px;
-	padding-left:180px;
+	padding-left:287px;
+}
+
+#v2 .social_box { 
+	margin-top:60px;
+	padding-left:152px;
 }
 
 
