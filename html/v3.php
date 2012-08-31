@@ -20,24 +20,54 @@
     
     <script>
         $(document).ready(function() { 
-            $('.tab').mouseover(function(){ 
-                var img_src = $(this).attr('src');
-                img_src = img_src.split('.');
-                $(this).attr('src', img_src[0] + "_down.png");
-                var type = $(this).attr('id');
-                type +='_text';
+            $('#arrow_right').click(function() {
+                
+                //show left arrow
+                if(parseInt($('#scroll').css('left')) == 0) { 
+                    $('#arrow_left').css('display', 'block');
+                }
 
-                var html = $('#'+type).html();
+                 if(parseInt($('#scroll').css('left')) > -5400 && !$('#scroll').is(":animated")) {
 
-                $('#content_holder').html(html);
-            });  
-             
-            $('.tab').mouseout(function(){ 
-                var img_src = $(this).attr('src');
-                img_src = img_src.split('_');
-                $(this).attr('src', img_src[0] + "_"+ img_src[1] +".png");
-                $('#content_holder').html("<img src='resources/banner_v3.png' />");
-            });
+                     $('#scroll').animate({
+                         left: '-=960'
+                     });
+                     
+                     //assign selected state to next link
+                     $('[data-selected="true"]').attr('data-selected', 'false').next().attr('data-selected', 'true');
+                     
+                     //underline correct link 
+                     $('[data-selected="false"]').removeClass('current_section');
+                     $('[data-selected="true"]').addClass('current_section');                    
+                 } 
+                 
+ 
+             });
+
+             $('#arrow_left').click(function() {
+
+                    if(parseInt($('#scroll').css('left')) < 0 && !$('#item_container').is(":animated") ) { 
+
+                     $('#scroll').animate({
+                         left: '+=960'
+                    });
+                    
+                    //assign selected state to next link
+                    $('[data-selected="true"]').attr('data-selected', 'false').prev().attr('data-selected', 'true');
+                    
+                    //underline correct link 
+                    $('[data-selected="false"]').removeClass('current_section');
+                    $('[data-selected="true"]').addClass('current_section');
+
+
+                    //hide left arrow if necessary
+                    console.log(parseInt($('#scroll').css('left')));
+                    if(parseInt($('#scroll').css('left')) >= -960) { 
+                        $('#arrow_left').css('display', 'none');
+                    }                                       
+
+                 }
+             });
         });
     
     
@@ -45,21 +75,25 @@
     
 <head>
     
-    
-    
-    
-<body id='v2'>
+<body id='v3'>
     <div id='container'>        
-        <img src='resources/header.png' />
+        <img src='resources/header_v2.png' />
         
-        <img src='resources/tab_directory.png' id='directory' class='tab' />
-        <img src='resources/tab_comp.png' id='comp' class='tab' />
-        <img src='resources/tab_offer.png' id='offer' class='tab' />
-        <img src='resources/tab_press.png' id='press' class='tab' />
+        <a class='tab' id='home_tab' data-selected='true'></a>
+        <a id='offer' class='tab'  >Offers &amp; Tenders</a>
+        <a id='comp' class='tab' />Events</a>
+        <a id='directory' class='tab' />Directory</a>
+        <a id='press' class='tab' />Press &amp; News</a>
+        
+        
         
         <div id='content_holder'>
-            <img src='resources/banner_v3.png' />
+            <img src='resources/panorama.png' id='scroll' />
         </div>
+        
+        <div id='arrow_left'>&laquo;</div>
+        <div id='arrow_right'>&raquo;</div>
+        
         
         <div id='offer_text' class='tab_content'>
             <p>Tenders enable buyers to reach out to all potential suppliers for a given category of product and receive offers from them. Offers enable suppliers to let the buyers know about a limited time special offers (such as bin-ends) or branded products at especially attractive pricing. Free for buyers, pay as you go for sellers.</p>
@@ -78,6 +112,63 @@
         </div>        
         
         <div id='sidebar'>
+            
+            <img src='resources/in_the_press_vert.png'  />
+            <img src='resources/sm_icons_vert.png'  />
+            
+            
+        </div>
+        
+        
+        <div class='cta'> 
+            <h2>Suppliers</h2>
+            
+            <ul>    
+                <li>Enable buyers and journalists to find your product information easily</li>
+                <li>Respond to buyer tenders and post special offers</li>
+                <li>Submit your wines to multiple competitions, guides, trade fairs etc with just one form</li>
+            </ul>
+            
+            <p class='signup'>Sign Up &raquo;</p>
+            
+        </div>
+        
+ 
+        <div class='cta right'>
+
+            
+            <h2>Buyers</h2>
+            <ul>
+                <li>A quick and easy way to reach all potential suppliers by posting a tender for your range review or portfolio gaps</li>
+                <li>Find out about special offers from suppliers</li>
+                <li>Find out about event news and reach out to journalists and other members of the trade</li>
+            </ul>
+            <p class='signup'>Sign Up &raquo;</p>            
+        </div>
+        
+        <div class='cta'> 
+            <h2>Event organisers</h2>
+               
+            <ul>
+                <li>Invite members of the trade to submit samples, exhibit at or attend your event</li>
+                <li>Manage the registration process and easily upload event information</li>
+                <li>Automatically produce print-ready tasting booklets and digital tasting booklets for any mobile device</li>
+            </ul>
+            <p class='signup'>Sign Up &raquo;</p>            
+        </div>
+
+        <div class='cta right'> 
+            <h2>Journalists</h2>
+            <ul>
+                <li>Find up-to-date product information</li>
+                <li>Reach out to all members of the trade for samples or stories</li>
+                <li>Set filters to only receive relevant news </li>
+            </ul>
+            <p class='signup'>Sign Up &raquo;</p>            
+        </div>
+        
+
+            
             <div id='events'> 
                 <h2>Events</h2>
             
@@ -96,6 +187,7 @@
                 <p class='more'>More &raquo;</p>
             </div>
 
+    
             <div id='news'> 
                 <h2>News</h2>
 
@@ -111,56 +203,8 @@
             
                 <p class='more'>More &raquo;</p>
             </div>
-        </div>
         
-        
-        <div class='cta'> 
-            <h2>Suppliers</h2>
-            
-            <ul>    
-                <li>Enable customers and journalists to find your product information</li>
-                <li>Respond to buyer tenders and post offers (even discreetly with targeted visibility)</li>
-                <li>Submit your wines to competitions, guides, trade fairs etc. without filling out new forms</li>
-            </ul>
-            
-            <p class='signup'>Sign Up &raquo;</p>
-            
-        </div>
-        
- 
-        <div class='cta right'>
-                         
-            <h2>Buyers</h2>
-            <ul>
-                <li>Reach out to all potential suppliers by posting a tender for your range reviews or portfolio gaps</li>
-                <li>Find out about special limited time offers from suppliers</li>
-                <li>Find out about event, news and reach out to journalists and other members of the trade</li>
-            </ul>
-            <p class='signup'>Sign Up &raquo;</p>            
-        </div>
-        
-        <div class='cta'> 
-            <h2>Journalists</h2>
-               
-            <ul>
-                <li>Reach out to all members of the trade for samples or stories.</li>
-                <li>Immediately find up-to-date product information.</li>
-                <li>Set filters to only receive relevant news / press releases from the trade.</li>
-            </ul>
-            <p class='signup'>Sign Up &raquo;</p>            
-        </div>
-        
-        <div class='cta right'> 
-            <h2>Journalists</h2>
-            <ul>
-                <li>Reach beyond your normal contacts</li>
-                <li>Discover new competitions</li>
-                <li>Request samples</li>
-            </ul>
-            <p class='signup'>Sign Up &raquo;</p>            
-        </div>
-        
-      
+
         
 	</div>
 </body>

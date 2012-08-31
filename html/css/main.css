@@ -75,7 +75,7 @@ body {
 .cta { 
 	width:335px;
 	float:left;
-	height:200px;
+	height:240px;
 	margin:10px 0px;
 	position:relative;	
 	background-image:url(../resources/cta_bkg.png);
@@ -92,10 +92,11 @@ body {
 
 .cta ul { 
     font-size: 13px;
-    height: 105px;
+    height: 143px;
     margin-left: 25px;
     padding-left: 0;
     width: 290px;
+	line-height: 20px;
 }
 
 .cta li {
@@ -260,4 +261,20 @@ h2 {
 #home_tab { 
 	display:none;
 	height:0px!important;
+}
+
+/* V3 */ 
+
+#v3 #events { 
+	width:335px;
+	float:left;
+	padding:0px;
+}
+
+#v3 #news { 
+	width:335px;
+	float:left;
+	margin-left:20px;
+	padding:0px;
+	margin-top:0px;
 }
