@@ -77,7 +77,7 @@
     
 <body id='v2'>
     <div id='container'>        
-        <img src='resources/header.png' />
+        <img src='resources/header_v2.png' />
         
         <a class='tab' id='home_tab' data-selected='true'></a>
         <a id='offer' class='tab'  >Offers &amp; Tenders</a>
@@ -88,7 +88,7 @@
         
         
         <div id='content_holder'>
-            <img src='resources/panorama_2.png' id='scroll' />
+            <img src='resources/panorama.png' id='scroll' />
         </div>
         <div id='arrow_left'>&laquo;</div>
         <div id='arrow_right'>&raquo;</div>
@@ -151,9 +151,9 @@
             <h2>Suppliers</h2>
             
             <ul>    
-                <li>Enable customers and journalists to find your product information</li>
-                <li>Respond to buyer tenders and post offers (even discreetly with targeted visibility)</li>
-                <li>Submit your wines to competitions, guides, trade fairs etc. without filling out new forms</li>
+                <li>Enable buyers and journalists to find your product information easily</li>
+                <li>Respond to buyer tenders and post special offers</li>
+                <li>Submit your wines to multiple competitions, guides, trade fairs etc with just one form</li>
             </ul>
             
             <p class='signup'>Sign Up &raquo;</p>
@@ -162,37 +162,72 @@
         
  
         <div class='cta right'>
-                         
+
+            
             <h2>Buyers</h2>
             <ul>
-                <li>Reach out to all potential suppliers by posting a tender for your range reviews or portfolio gaps</li>
-                <li>Find out about special limited time offers from suppliers</li>
-                <li>Find out about event, news and reach out to journalists and other members of the trade</li>
+                <li>A quick and easy way to reach all potential suppliers by posting a tender for your range review or portfolio gaps</li>
+                <li>Find out about special offers from suppliers</li>
+                <li>Find out about event news and reach out to journalists and other members of the trade</li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
         
         <div class='cta'> 
-            <h2>Journalists</h2>
+            <h2>Competition and event organisers</h2>
                
             <ul>
-                <li>Reach out to all members of the trade for samples or stories.</li>
-                <li>Immediately find up-to-date product information.</li>
-                <li>Set filters to only receive relevant news / press releases from the trade.</li>
+                <li>Invite members of the trade to submit samples, exhibit at or attend your event</li>
+                <li>Manage the registration process and easily upload event information</li>
+                <li>Automatically produce print-ready tasting booklets and digital tasting booklets for any mobile device</li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
-        
+
         <div class='cta right'> 
             <h2>Journalists</h2>
             <ul>
-                <li>Reach beyond your normal contacts</li>
-                <li>Discover new competitions</li>
-                <li>Request samples</li>
+                <li>Find up-to-date product information</li>
+                <li>Reach out to all members of the trade for samples or stories</li>
+                <li>Set filters to only receive relevant news </li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
         
+        
+        
+    
+        <div id='in_the_press'>
+            <h2>What they say about us</h2>
+            <img  src='resources/in_the_press.png'>
+        </div>
+		<div class='social_box'>
+		    <div id='facebook' class='sm_button'>
+			    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like id='facebook_like' href="" layout="box_count" show_faces="false" width="90" font=""></fb:like>			
+			</div>
+			
+			<div id='twitter' class='sm_button'>
+			    <a href="http://twitter.com/share" class="twitter-share-button" data-text="@panabee is the simplest way to brainstorm names for websites, blogs, and mobile apps. Try it out!" data-count="vertical">&nbsp;</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+			</div>
+			
+			<div id='google_plus' class='sm_button'>
+			    <g:plusone size="tall"></g:plusone>
+			</div>
+			
+			<div id='linked_in' class='sm_button'>
+			    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+                <script type="IN/Share" data-counter="top"></script>
+		    </div>
+		</div>		
+  
+
+    	<script type="text/javascript">
+    	  (function() {
+    	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    	    po.src = 'https://apis.google.com/js/plusone.js';
+    	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    	  })();
+    	</script>      
       
         
 	</div>
