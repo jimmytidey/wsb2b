@@ -112,9 +112,9 @@
         </div>        
         
         <div id='sidebar'>
-            
+            <img src='resources/sm_icons_v2.png' id='social_box' />
             <img src='resources/in_the_press_vert.png'  />
-            <img src='resources/sm_icons_vert.png'  />
+            
             
             
         </div>
