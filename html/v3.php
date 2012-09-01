@@ -88,7 +88,7 @@
         
         
         <div id='content_holder'>
-            <img src='resources/panorama.png' id='scroll' />
+            <img src='resources/panorama_v3.png' id='scroll' />
         </div>
         
         <div id='arrow_left'>&laquo;</div>
