@@ -75,7 +75,7 @@
     
 <head>
     
-<body id='v2'>
+<body id='v3'>
     <div id='container'>        
         <img src='resources/header_v2.png' />
         
@@ -88,8 +88,9 @@
         
         
         <div id='content_holder'>
-            <img src='resources/panorama.png' id='scroll' />
+            <img src='resources/panorama_v2.png' id='scroll' />
         </div>
+        
         <div id='arrow_left'>&laquo;</div>
         <div id='arrow_right'>&raquo;</div>
         
@@ -113,42 +114,8 @@
         <div id='sidebar'>
             
             <img src='resources/in_the_press_vert.png'  />
+            <img src='resources/sm_icons_v2.png' id='social_box' />
             
-            <div id='events'> 
-                <h2>Events</h2>
-            
-                <h3>September 2012</h3>
-                <p>China Wine Awards 2012</p>
-                <p>Napa Valley Wine Industry Symposium</p>
-            
-                <h3>October 2012</h3>
-                <p>Les Rencontres Vinicoles Lyon</p>
-                <p>Three Wine Men Cardiff</p>
-                <p>Les Rencontres Vinicoles Paris</p>
-            
-                <h3>November 2012</h3>
-                <p>Les Rencontres Vinicoles Lausanne</p>
-            
-                <p class='more'>More &raquo;</p>
-            </div>
-
-            <!--
-            <div id='news'> 
-                <h2>News</h2>
-
-
-                <p>3ème édition pour le prix de l'œnotourisme </p><em>24 Aug</em>
-
-                <p>Le château de Gevrey-Chambertin acheté pour 8 millions d'euros par un chinois </p><em>23 Aug</em>
-                <p>La nouvelle est tombée hier, un investisseur chinois ayant fait fortune...   </p><em>23 Aug</em>
-                
-                <p>Château de Gevrey Chambertin now under Chinese ownership  </p><em>23 Aug</em>
-
-
-            
-                <p class='more'>More &raquo;</p>
-            </div>
-            -->
             
         </div>
         
@@ -180,7 +147,7 @@
         </div>
         
         <div class='cta'> 
-            <h2>Competition and event organisers</h2>
+            <h2>Event organisers</h2>
                
             <ul>
                 <li>Invite members of the trade to submit samples, exhibit at or attend your event</li>
@@ -200,13 +167,44 @@
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
         
-        
-        
+
+            <!--
+            <div id='events'> 
+                <h2>Events</h2>
+            
+                <h3>September 2012</h3>
+                <p>China Wine Awards 2012</p>
+                <p>Napa Valley Wine Industry Symposium</p>
+            
+                <h3>October 2012</h3>
+                <p>Les Rencontres Vinicoles Lyon</p>
+                <p>Three Wine Men Cardiff</p>
+                <p>Les Rencontres Vinicoles Paris</p>
+            
+                <h3>November 2012</h3>
+                <p>Les Rencontres Vinicoles Lausanne</p>
+            
+                <p class='more'>More &raquo;</p>
+            </div>
+
     
-  
+            <div id='news'> 
+                <h2>News</h2>
+
+
+                <p>3ème édition pour le prix de l'œnotourisme </p><em>24 Aug</em>
+
+                <p>Le château de Gevrey-Chambertin acheté pour 8 millions d'euros par un chinois </p><em>23 Aug</em>
+                <p>La nouvelle est tombée hier, un investisseur chinois ayant fait fortune...   </p><em>23 Aug</em>
+                
+                <p>Château de Gevrey Chambertin now under Chinese ownership  </p><em>23 Aug</em>
+
+
+            
+                <p class='more'>More &raquo;</p>
+            </div>
         
-        
-        <img  src='resources/sm_icons.png' class='social_box' >
+            -->
         
 	</div>
 </body>

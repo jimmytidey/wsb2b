@@ -112,9 +112,9 @@
         </div>        
         
         <div id='sidebar'>
-            <img src='resources/sm_icons_v2.png' id='social_box' />
-            <img src='resources/in_the_press_vert.png'  />
             
+            <img src='resources/in_the_press_vert.png'  />
+            <img src='resources/sm_icons_v2.png' id='social_box' />
             
             
         </div>
@@ -168,7 +168,7 @@
         </div>
         
 
-            
+            <!--
             <div id='events'> 
                 <h2>Events</h2>
             
@@ -204,7 +204,7 @@
                 <p class='more'>More &raquo;</p>
             </div>
         
-
+            -->
         
 	</div>
 </body>

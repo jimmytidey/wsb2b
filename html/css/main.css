@@ -139,7 +139,7 @@ h2 {
 
 #content_holder { 
     background-image: url("../resources/banner_bkg.png");
-    height: 271px;
+    height: 265px;
     overflow: hidden;
     position: relative;
     top: -1px;
@@ -283,3 +283,24 @@ h2 {
 	padding:0px;
 	margin-top:0px;
 }
+
+/* news ticker */
+
+#news_ticker  {
+	width:680px;
+	background-color:#dadadc;
+	height:22px;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:10px;
+	margin-bottom:2px;
+}
+
+#next_news { 
+	position:absolute;
+	right:300px;
+	margin-top:-1px;
+	font-weight:bold;
+	color:black;
+}
+	
