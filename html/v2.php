@@ -119,6 +119,9 @@
             
         </div>
         
+
+        <p id='news_ticker'>Competition: China Wine Awards 2012 <span id='next_news'> &raquo;</span></p>
+
         
         <div class='cta'> 
             <h2>Suppliers</h2>
