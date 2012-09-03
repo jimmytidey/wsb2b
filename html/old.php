@@ -124,7 +124,7 @@
         <div id='news_ticker'>
             <div id='news_ticker_content'>
                 <ul >
-                    <li class='ticker_item'>Competition: China Wine Awards 2012</li>
+                    <li class='ticker_item'>Competition: China Wine Awards 2012 <span class='news_date'>(1st Sept)</span></li>
 
                 </ul>
             </div>

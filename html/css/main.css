@@ -292,7 +292,7 @@ h2 {
 	width:680px;
 	background-color:#c41a2b;
 	height:22px;
-	margin-top:10px;
+	margin-top:-176px;
 	padding-top:10px;
 	padding-left:10px;
 	margin-bottom:2px;
@@ -320,17 +320,23 @@ h2 {
 	margin-top:-1px;
 	font-weight:bold;
 	color: #c41a2b;
+	display:none;
 }
 
 #pause { 
 
 	left:630px;
 	position:relative;
+	display:none;
+}
+
+.news_date { 
+	font-size:10px;
 }
 	
 /* FOOOTER */
 #footer { 
-	margin-top:100px;
+	margin-top:700px;
 }
 	
 	
