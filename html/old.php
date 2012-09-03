@@ -57,7 +57,7 @@
             <div id='home_text' class='banner_content'>
                 <h1>Wines and Spirits</h1>
                 <h2>Trade and Networking Directory</h2>
-                <p>40,000 companies, 30 countries, 10 languages</p>
+                <p>50,000 companies, 41 countries, 10 languages</p>
             </div>    
             
             <div id='offer_text' class='banner_content not_home'>
