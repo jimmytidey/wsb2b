@@ -218,7 +218,7 @@
             </div>
         
             -->
-        
+            <img src='resources/footer.png' id='footer'>
 	</div>
 </body>
 </html>
