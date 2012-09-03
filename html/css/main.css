@@ -265,7 +265,7 @@ h2 {
 	border:1px solid black;
 }
 
-#home_tab { 
+#home_tab {
 	display:none;
 	height:0px!important;
 }
@@ -290,13 +290,13 @@ h2 {
 
 #news_ticker  {
 	width:680px;
-	background-color:#dadadc;
+	background-color:#c41a2b;
 	height:22px;
 	margin-top:10px;
 	padding-top:10px;
 	padding-left:10px;
 	margin-bottom:2px;
-	color: #c41a2b;
+	color: #fff;
 
 }
 #news_ticker ul {
