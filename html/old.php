@@ -20,54 +20,20 @@
     
     <script>
         $(document).ready(function() { 
-            $('#arrow_right').click(function() {
-                
-                //show left arrow
-                if(parseInt($('#scroll').css('left')) == 0) { 
-                    $('#arrow_left').css('display', 'block');
-                }
+           
+            $('.tab').mouseover(function() {
+                var type = "#" + $(this).attr('id') + "_text";
+                $('.banner_content').css('display',"none");
+                $(type).css('display','block');
+                $(this).css('text-decoration',"underline");
+            });
 
-                 if(parseInt($('#scroll').css('left')) > -5400 && !$('#scroll').is(":animated")) {
-
-                     $('#scroll').animate({
-                         left: '-=960'
-                     });
-                     
-                     //assign selected state to next link
-                     $('[data-selected="true"]').attr('data-selected', 'false').next().attr('data-selected', 'true');
-                     
-                     //underline correct link 
-                     $('[data-selected="false"]').removeClass('current_section');
-                     $('[data-selected="true"]').addClass('current_section');                    
-                 } 
-                 
- 
-             });
-
-             $('#arrow_left').click(function() {
-
-                    if(parseInt($('#scroll').css('left')) < 0 && !$('#item_container').is(":animated") ) { 
-
-                     $('#scroll').animate({
-                         left: '+=960'
-                    });
-                    
-                    //assign selected state to next link
-                    $('[data-selected="true"]').attr('data-selected', 'false').prev().attr('data-selected', 'true');
-                    
-                    //underline correct link 
-                    $('[data-selected="false"]').removeClass('current_section');
-                    $('[data-selected="true"]').addClass('current_section');
-
-
-                    //hide left arrow if necessary
-                    console.log(parseInt($('#scroll').css('left')));
-                    if(parseInt($('#scroll').css('left')) >= -960) { 
-                        $('#arrow_left').css('display', 'none');
-                    }                                       
-
-                 }
-             });
+            $('.tab').mouseout(function() {
+                $('.banner_content').css('display',"none");
+                 $("#home_text").css('display','block');
+                $(this).css('text-decoration',"none");
+            });
+            
         });
     
     
@@ -79,8 +45,8 @@
     <div id='container'>        
         <img src='resources/header.png' />
         
-        <a class='tab' id='home_tab' data-selected='true'></a>
-        <a id='offer' class='tab'  >Offers &amp; Tenders</a>
+        <a id='home_tab' class='tab'  data-selected='true'></a>
+        <a id='offer' class='tab'   >Offers &amp; Tenders</a>
         <a id='comp' class='tab' />Events</a>
         <a id='directory' class='tab' />Directory</a>
         <a id='press' class='tab' />Press &amp; News</a>
@@ -88,28 +54,35 @@
         
         
         <div id='content_holder'>
-            <img src='resources/banner_old.png' id='scroll' />
+            <div id='home_text' class='banner_content'>
+                <h1>Wines and Spirits</h1>
+                <h2>Trade and Networking Directory</h2>
+                <p>40,000 companies, 30 countries, 10 languages</p>
+            </div>    
+            
+            <div id='offer_text' class='banner_content not_home'>
+                <h1>Wines and Spirits</h1>
+                <p>Tenders give buyers easy access to offers from suppliers by category, for free. Suppliers - promote your special offers direct to buyers on a pay as you go basis.</p>
+            </div>
+
+            <div id='comp_text' class='banner_content not_home'>
+                <h1>Wines and Spirits</h1>
+                <p>Journalists, event and competition organisers can request multiple samples in one hit while suppliers can enter different events with a single form. We can produce your tasting booklet and much more.</p>
+            </div>
+
+            <div id='press_text' class='banner_content not_home'>
+                <h1>Wines and Spirits</h1>
+                <p>Suppliers – upload your press releases for easy access by journalists. Journalists – sign up to receive news from across the industry and tailor your account to receive only what matters to you.<p>
+            </div>
+
+            <div id='directory_text' class='banner_content not_home'>
+                <h1>Wines and Spirits</h1>
+                <p>Find out who sells what and to whom. Be found by claiming or creating your listing; search for people, products and companies and make valuable connections within the trade</p>
+            </div>            
         </div>
+                
         
-        <div id='arrow_left'>&laquo;</div>
-        <div id='arrow_right'>&raquo;</div>
-        
-        
-        <div id='offer_text' class='tab_content'>
-            <p>Tenders enable buyers to reach out to all potential suppliers for a given category of product and receive offers from them. Offers enable suppliers to let the buyers know about a limited time special offers (such as bin-ends) or branded products at especially attractive pricing. Free for buyers, pay as you go for sellers.</p>
-        </div>
-        
-        <div id='comp_text' class='tab_content'>
-            <p>Competition and event organizers or journalists seeking samples can easily solicit suppliers through our platform who can sign up and submit their product information to the organiser which is stored on the platform so they only have to complete their product information once!</p>
-        </div>
-        
-        <div id='press_text' class='tab_content'>
-            <p>Get your news out to the press by uploading your press releases and other news items. Journalists can apply filters to receive only relevant news items. Stay informed about the latest news.<p>
-        </div>
-        
-        <div id='directory_text' class='tab_content'>
-            <p>Search for people, companies and products. Ensure you, your company and products can be found by others and connect to other members of the trade and connect with multiple companies that you own or work for. (It is still early days for this platform but ultimately you will be able to find out who sells what to whom.)</p>
-        </div>        
+    
         
         <div id='sidebar'>
             

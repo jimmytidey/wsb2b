@@ -138,12 +138,41 @@ h2 {
 }
 
 #content_holder { 
-    background-image: url("../resources/banner_bkg.png");
+    background-image: url("../resources/banner_old.png");
     height: 178px;
     overflow: hidden;
     position: relative;
     top: -1px;
     width: 960px;
+	color:white;
+	line-height:20px;
+}
+
+#content_holder h1{
+	margin-top:50px;
+	margin-left:10px;
+} 
+
+#content_holder h2{
+	margin-top:30px;
+	margin-left:10px;
+	color:white;
+}
+#content_holder p{
+	margin-left:10px;
+}
+
+.banner_content { 
+	display:none;
+	position:absolute;
+}
+
+.not_home { 
+	width:500px;
+}
+
+#home_text { 
+	display:block;
 }
 
 #scroll { 
@@ -183,13 +212,7 @@ h2 {
 
 
 
-#content_holder p{
-	font-size:18px;
-	margin:0 120px;
-	padding-top:20px;
-	line-height:30px;
-	color:white;
-} 
+
 
 #in_the_press { 
 	position:relative;
@@ -237,6 +260,8 @@ h2 {
 	color:white;
 	position: absolute;
 	z-index:10;
+	cursor:pointer;
+	width:120px
 }
 
 #offer { 
@@ -244,11 +269,11 @@ h2 {
 }
 
 #comp { 
-	right: 282px;
+	right: 220px;
 }
 
 #directory { 
-	right: 154px;
+	right: 120px;
 }
 
 #press { 
