@@ -1,15 +1,14 @@
 body { 
 	font-family: Tahoma, Verdana, Segoe, sans-serif;
 	line-height: 15px;
-	background-color:#EDF5FA;
-	background-image:url(../resources/bkg.png);
+
 	margin:0px;
 	padding:0px;
 }
 
 #sidebar { 
 	float:right;
-	width:249px;
+	width:238px;
 }
 
 #container { 
@@ -75,10 +74,10 @@ body {
 .cta { 
 	width:335px;
 	float:left;
-	height:240px;
-	margin:10px 0px;
+  	height: 254px;
+    margin: 10px 0 0;
 	position:relative;	
-	background-image:url(../resources/cta_bkg.png);
+	background-image:url(../resources/cta_old.png);
 	background-color:white;
 
 	border:0px solid black;	
@@ -295,7 +294,22 @@ h2 {
 	padding-left:10px;
 	margin-bottom:2px;
 	color: #c41a2b;
+
 }
+#news_ticker ul {
+	position:absolute;
+	list-style:none;
+	margin-left:0px;
+	padding-left:0px;	
+}
+
+#news_ticker li {
+	margin-top:-17px;
+	position:absolute;
+	width:600px;
+	margin-left:0px;
+	padding-left:0px;
+}	
 
 #next_news { 
 	position:absolute;
@@ -303,5 +317,11 @@ h2 {
 	margin-top:-1px;
 	font-weight:bold;
 	color: #c41a2b;
+}
+
+#pause { 
+
+	left:630px;
+	position:relative;
 }
 	

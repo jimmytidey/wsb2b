@@ -77,7 +77,7 @@
     
 <body id='v3'>
     <div id='container'>        
-        <img src='resources/header_v2.png' />
+        <img src='resources/header.png' />
         
         <a class='tab' id='home_tab' data-selected='true'></a>
         <a id='offer' class='tab'  >Offers &amp; Tenders</a>
@@ -88,7 +88,7 @@
         
         
         <div id='content_holder'>
-            <img src='resources/panorama.png' id='scroll' />
+            <img src='resources/banner_old.png' id='scroll' />
         </div>
         
         <div id='arrow_left'>&laquo;</div>
@@ -113,8 +113,9 @@
         
         <div id='sidebar'>
             
+            <img src='resources/sm_trad.png' id='social_box' />
             <img src='resources/in_the_press_vert.png'  />
-            <img src='resources/sm_icons_v2.png' id='social_box' />
+            
             
             
         </div>
@@ -124,10 +125,7 @@
             <div id='news_ticker_content'>
                 <ul >
                     <li class='ticker_item'>Competition: China Wine Awards 2012</li>
-                    <li class='ticker_item'>Competition: China Wine Awards 2012</li>
-                    <li class='ticker_item'>Competition: China Wine Awards 2012</li>
-                    <li class='ticker_item'>Competition: China Wine Awards 2012</li>
-                    <li class='ticker_item'>Competition: China Wine Awards 2012</li>
+
                 </ul>
             </div>
             <img src='resources/pause.png' id='pause' />
