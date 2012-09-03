@@ -61,22 +61,22 @@
             </div>    
             
             <div id='offer_text' class='banner_content not_home'>
-                <h1>Wines and Spirits</h1>
+                <h1>Offers &amp; Tenders</h1>
                 <p>Tenders give buyers easy access to offers from suppliers by category, for free. Suppliers - promote your special offers direct to buyers on a pay as you go basis.</p>
             </div>
 
             <div id='comp_text' class='banner_content not_home'>
-                <h1>Wines and Spirits</h1>
+                <h1>Events</h1>
                 <p>Journalists, event and competition organisers can request multiple samples in one hit while suppliers can enter different events with a single form. We can produce your tasting booklet and much more.</p>
             </div>
 
             <div id='press_text' class='banner_content not_home'>
-                <h1>Wines and Spirits</h1>
+                <h1>Directory</h1>
                 <p>Suppliers – upload your press releases for easy access by journalists. Journalists – sign up to receive news from across the industry and tailor your account to receive only what matters to you.<p>
             </div>
 
             <div id='directory_text' class='banner_content not_home'>
-                <h1>Wines and Spirits</h1>
+                <h1>Press &amp; News</h1>
                 <p>Find out who sells what and to whom. Be found by claiming or creating your listing; search for people, products and companies and make valuable connections within the trade</p>
             </div>            
         </div>
