@@ -75,7 +75,7 @@
     
 <head>
     
-<body id='v3'>
+<body id='old'>
     <div id='container'>        
         <img src='resources/header.png' />
         
@@ -114,7 +114,7 @@
         <div id='sidebar'>
             
             <img src='resources/sm_trad.png' id='social_box' />
-            <img src='resources/in_the_press_vert.png'  />
+            <img src='resources/in_the_press_vert.png'  id='in_the_press'  />
             
             
             
