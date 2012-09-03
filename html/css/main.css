@@ -309,6 +309,10 @@ h2 {
 	padding-left:0px;
 }	
 
+.news_date { 
+	font-size:10px;
+}
+
 #next_news { 
 	position:absolute;
 	right:300px;
