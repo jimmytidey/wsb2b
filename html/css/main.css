@@ -84,6 +84,24 @@ body {
 
 }
 
+#cta_buyers { 
+		background-image:url(../resources/cta_old_search.png);
+}
+
+#cta_suppliers { 
+		background-image:url(../resources/cta_old_arrow.png);
+}
+
+#cta_events { 
+		background-image:url(../resources/cta_old_glass.png);
+}
+
+#cta_journalists { 
+		background-image:url(../resources/cta_old_notepad.png);
+}
+
+
+
 .cta h2{ 
 	margin-left:12px;
 	padding-left:0px;

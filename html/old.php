@@ -106,7 +106,7 @@
         </div>
 
         
-        <div class='cta'> 
+        <div class='cta' id='cta_suppliers' > 
             <h2>Suppliers</h2>
             
             <ul>    
@@ -120,7 +120,7 @@
         </div>
         
  
-        <div class='cta right'>
+        <div class='cta right' id='cta_buyers'>
 
             
             <h2>Buyers</h2>
@@ -132,7 +132,7 @@
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
         
-        <div class='cta'> 
+        <div class='cta' id='cta_events'> 
             <h2>Event organisers</h2>
                
             <ul>
@@ -143,7 +143,7 @@
             <p class='signup'>Sign Up &raquo;</p>            
         </div>
 
-        <div class='cta right'> 
+        <div class='cta right' id='cta_journalists'> 
             <h2>Journalists</h2>
             <ul>
                 <li>Find up-to-date product information</li>
