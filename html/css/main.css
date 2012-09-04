@@ -85,11 +85,11 @@ body {
 }
 
 #cta_buyers { 
-		background-image:url(../resources/cta_old_search.png);
+		background-image:url(../resources/cta_old_arrow_down.png);
 }
 
 #cta_suppliers { 
-		background-image:url(../resources/cta_old_arrow.png);
+		background-image:url(../resources/cta_old_arrow_up.png);
 }
 
 #cta_events { 

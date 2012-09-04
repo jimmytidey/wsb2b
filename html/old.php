@@ -111,7 +111,7 @@
             <h2>Suppliers</h2>
             
             <ul>    
-                <li>Enable buyers and journalists to find your product information easily</li>
+                <li style='width:270px'>Enable buyers and journalists to find your product information easily</li>
                 <li>Respond to buyer tenders and post special offers</li>
                 <li>Submit your wines to multiple competitions, guides, trade fairs etc with just one form</li>
             </ul>
@@ -126,7 +126,7 @@
             
             <h2>Buyers</h2>
             <ul>
-                <li>A quick and easy way to reach all potential suppliers by posting a tender for your range review or portfolio gaps</li>
+                <li  style='width:250px'>A quick and easy way to reach all potential suppliers by posting a tender for your range review or portfolio gaps</li>
                 <li>Find out about special offers from suppliers</li>
                 <li>Find out about event news and reach out to journalists and other members of the trade</li>
             </ul>
@@ -137,8 +137,8 @@
             <h2>Event organisers</h2>
                
             <ul>
-                <li>Invite members of the trade to submit samples, exhibit at or attend your event</li>
-                <li>Manage the registration process and easily upload event information</li>
+                <li style='width:270px'>Invite members of the trade to submit samples, exhibit at or attend your event</li>
+                <li style='width:270px'>Manage the registration process and easily upload event information</li>
                 <li>Automatically produce print-ready tasting booklets and digital tasting booklets for any mobile device</li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
@@ -148,7 +148,7 @@
             <h2>Journalists</h2>
             <ul>
                 <li>Find up-to-date product information</li>
-                <li>Reach out to all members of the trade for samples or stories</li>
+                <li style='width:270px'>Reach out to all members of the trade for samples or stories</li>
                 <li>Set filters to only receive relevant news </li>
             </ul>
             <p class='signup'>Sign Up &raquo;</p>            
