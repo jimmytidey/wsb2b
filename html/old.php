@@ -46,9 +46,10 @@
         <img src='resources/header.png' />
         
         <a id='home_tab' class='tab'  data-selected='true'></a>
+        <a id='directory' class='tab' />Directory</a>
         <a id='offer' class='tab'   >Offers &amp; Tenders</a>
         <a id='comp' class='tab' />Events</a>
-        <a id='directory' class='tab' />Directory</a>
+
         <a id='press' class='tab' />Press &amp; News</a>
         
         
