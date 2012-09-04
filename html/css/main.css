@@ -383,12 +383,7 @@ h2 {
 	
 	
 /***********************
-
-
-
 DASHBOARD 
-
-
 **********************/
 
 #personal_info { 
@@ -445,7 +440,20 @@ DASHBOARD
 	text-decoration:underline;
 }	
 	
+
+/***********************
+Events 
+**********************/	
 	
+#old_events #sidebar { 
+	color:#c41a2b;
+	text-decoration:underline;
+}
+
+#old_events #content_holder  {
+	background-image: url("../resources/banner_old_dashboard.png");
+}
+
 	
 	
 	
