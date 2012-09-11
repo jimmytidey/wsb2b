@@ -195,8 +195,10 @@
                 <li>Reach out to all members of the trade for samples or stories</li>
                 <li>Set filters to only receive relevant news </li>
             </ul>
-            <p class='signup'>Sign Up &raquo;</p>            
+            <p class='signup'>Sign Up &raquo;</p>               
         </div>
+        
+        
         
         <img src='resources/in_the_press_horiz.png'>
         <br/>
