@@ -204,9 +204,9 @@
         <br/>
         <br/>
         
-        <center>
-        <img src='resources/sm_icons_v2.png'>
-        </center>
+
+        <img src='resources/sm_icons_v2.png' style='margin-left:335px; margin-top:20px'>
+        
             
 
   
